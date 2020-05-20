@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+}
+
+@media (min-width: 280px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 360px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+section.img-1 {
+    background: url('../assets/img/background1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.backimg1{
+    background: #0000008a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bar {
+    background: linear-gradient(to bottom, black, transparent);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    font-size: 2.2vw;
+}
+
+@media (max-width: 420px) {
+    .bar {
+        font-size: 3.0vw;
+    }
+}
+
+.bar a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.bar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bar li {
+    list-style: none;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+hr {
+    background-color: #3799d1;
+    height: 0.27vw;
+}
+
+.site-subtitle,
+.site-title {
+    text-align: center;
+}
+
+.site-title{
+    font-size: 4em;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #3fb2f5;
+}
+
+.type-animation {
+    animation: blinkCursor 650ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing{
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkCursor{
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.site-subtitle {
+    color: whitesmoke;
+}
+
+section.img-2{
+    background: url('../assets/img/background2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.backimg2{
+    background: rgba(67, 67, 205, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.sobre {
+    padding: 2em;
+    min-height: 100vh;
+}
+
+.sobre h2 {
+    color: white;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+
+.sobre p {
+    color: white;
+    margin-bottom: 1.4em;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+.sobre .avatar {
+    float: right;
+    margin-left: 2em;
+}
+
+.sobre .avatar img {
+    border-radius: 50%;
+}
+
+p a {
+    color: #95dfeb;
+}
+
+p a:hover {
+    color: black;
+}
+
+section.img-3{
+    background: url('../assets/img/background2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.backimg3{
+    background: #000000ce;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.icons h2{
+    text-align: center;
+}
+
+.icons ul {
+    display: flex;
+    justify-content: space-around;
+}
+.icons ul li
+{
+	list-style: none;
+}
+
+.icons ul li .fa
+{
+    font-size: 7vw;
+    color: #000;
+    transition: .6s;
+}
+
+.icons ul li .fa:hover{
+    color: #fff;
+}
+
+
+.icons ul li a {
+    position: relative;
+    display: block;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.icons ul li a:hover {
+    transform: translate(0 ,-10px);
+}
+
+.icons ul li:nth-child(1) a:hover {
+    background-color: #0077B5;
+}
+
+.icons ul li:nth-child(2) a:hover {
+    background-color: #131418;
+}
+
+.icons ul li:nth-child(3) a:hover {
+    background-color: #dd4b39;
+}
