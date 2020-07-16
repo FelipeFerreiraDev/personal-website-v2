@@ -212,6 +212,18 @@ section.img-3{
     text-align: center;
 }
 
+@media (min-width: 1132px) {
+    .icons h2{
+        margin-left: 225px;
+    }
+}
+
+@media (min-width: 2081px) {
+    .icons h2{
+        margin-left: 10px;
+    }
+}
+
 .icons ul {
     display: flex;
     justify-content: space-around;
