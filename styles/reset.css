@@ -1,0 +1,13 @@
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Georgia, serif;
+    color: #252525;
+}
