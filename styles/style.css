@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
 .site-title{
     border-right: 0.1rem solid #8257e5;
     overflow: hidden;
@@ -212,15 +214,24 @@ a.menu-logo {
 }
 
 h2.produtos-paulista::before {
-    color: #492901;
+    color: #000;
+    background: url('../assets/img/github.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h2.produtos-carioca::before {
-    color: #c17139;
+    color: #F44336;
+    background: url('../assets/img/gmail.svg') no-repeat;
+    background-size: 86%;
+    background-position: center;
 }
 
 h2.produtos-mineiro::before {
-    color: #d7a54d;
+    color: #0077B5;
+    background: url('../assets/img/linkedin.svg') no-repeat;
+    background-size: 75%;
+    background-position: center;
 }
 
 .produtos-item p {
@@ -299,4 +310,67 @@ h2.produtos-mineiro::before {
     border: 3px solid;
     color: #252525;
     padding: 10px 20px;
+}
+
+.github {
+    width: 91%;
+    height: 60px;
+    background: #8257e5;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 60px;
+} 
+.github:hover {
+    transition: 0.5s;
+    background: #000;
+    filter: brightness(90%);
+}
+
+.gmail {
+    width: 91%;
+    height: 60px;
+    background: #8257e5;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 60px;
+} 
+.gmail:hover {
+    transition: 0.5s;
+    background: #F44336;
+    filter: brightness(90%);
+}
+
+.linkedin {
+    width: 91%;
+    height: 60px;
+    background: #8257e5;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 60px;
+} 
+.linkedin:hover {
+    transition: 0.5s;
+    background: #0077B5;
+    filter: brightness(90%);
 }
