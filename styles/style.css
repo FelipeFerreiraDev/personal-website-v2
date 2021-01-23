@@ -171,37 +171,37 @@ a.menu-logo {
     max-width: 460px;
 }
 
-.produtos {
+.contatos {
     background: #e7e4d8;
     padding: 60px 0;
     border-top: 3px solid  #d6d3c8;
     border-bottom: 3px solid  #d6d3c8;
 }
 
-.produtos-container {
+.contatos-container {
     max-width: 960px;
     margin: 0 auto;
 }
 
-.produtos-container::before, .produtos-container::after {
+.contatos-container::before, .contatos-container::after {
     content: '';
     display: table;
     clear: both;
 }
 
-.produtos-item {
+.contatos-item {
     width: 300px;
     float: left;
     margin: 0 10px 20px 10px;
 }
 
-.produtos-item h2 {
+.contatos-item h2 {
     text-align: center;
     font-size: 2.25em;
     margin-bottom: 20px;
 }
 
-.produtos-item h2::before {
+.contatos-item h2::before {
     content: '';
     display: block;
     width: 100px;
@@ -213,34 +213,34 @@ a.menu-logo {
     box-shadow: 0 0 0 10px currentColor;
 }
 
-h2.produtos-paulista::before {
+h2.contatos-git::before {
     color: #000;
     background: url('../assets/img/github.svg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-h2.produtos-carioca::before {
+h2.contatos-gmail::before {
     color: #F44336;
     background: url('../assets/img/gmail.svg') no-repeat;
     background-size: 86%;
     background-position: center;
 }
 
-h2.produtos-mineiro::before {
+h2.contatos-linkedin::before {
     color: #0077B5;
     background: url('../assets/img/linkedin.svg') no-repeat;
     background-size: 75%;
     background-position: center;
 }
 
-.produtos-item p {
+.contatos-item p {
     font-size: 0.875em;
     line-height: 1.4em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.produtos-btn {
+.contatos-btn {
     width: 180px;
     border: 3px solid #252525;
     color: #252525;
@@ -254,62 +254,11 @@ h2.produtos-mineiro::before {
     margin: 20px auto 0 auto;
 }
 
-.produtos-btn:hover {
+.contatos-btn:hover {
     border-color: #e7e4d8;
     color: white;
     background-color: #1d1d1d;
     transition-duration: 0.5s;
-}
-
-.locais {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
-.locais-item {
-    clear: both;
-    margin: 60px auto;
-}
-
-.locais-item::after, .locais-item::before{
-    display: table;
-    content: '';
-    clear: both;
-}
-
-.locais-item img {
-    width: 460px;
-    float: left;
-    display: block;
-    margin: 0 10px;
-}
-
-.locais-item > div {
-    width: 460px;
-    float: left;
-    margin: 0 10px;
-}
-
-.locais-item h2 {
-    font-size: 2.25em;
-    margin-bottom: 20px;
-}
-
-.locais-item p {
-    font-size: 1.125em;
-    line-height: 1.4em;
-    max-width: 320px;
-    margin-bottom: 40px;
-}
-
-.locais-item a {
-    font-size: 1.125em;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 3px solid;
-    color: #252525;
-    padding: 10px 20px;
 }
 
 .github {
