@@ -23,16 +23,6 @@ html {
     }
 }
 
-@media(width: 360px){
-    @keyframes typing {
-        from {
-            width: 0;
-        } to {
-            width: 98%;
-        }
-    }
-}
-
 @keyframes blinkCursor{
     from {
         border-right-color: #8257e5;
@@ -241,8 +231,7 @@ a.menu-logo {
         margin: 0 20px 10px 30px;
     }
     .sobre-item img{
-        width: 340px;
-        max-width: 500px;
+        width: 150%;
     }
 }
 
