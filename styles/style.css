@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 .site-title{
     border-right: 0.1rem solid #8257e5;
     overflow: hidden;
@@ -26,6 +30,14 @@
     to {
         border-right-color: transparent;
     }
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #8257e5;
 }
 
 body, h1, h2, h3, p, ul {
@@ -92,6 +104,13 @@ a.menu-logo {
     padding: 150px 0;
     text-align: center;
     color: #fff;
+    animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
 }
 
 .intro h1 {
