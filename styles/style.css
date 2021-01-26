@@ -23,6 +23,16 @@ html {
     }
 }
 
+@media(width: 360px){
+    @keyframes typing {
+        from {
+            width: 0;
+        } to {
+            width: 98%;
+        }
+    }
+}
+
 @keyframes blinkCursor{
     from {
         border-right-color: #8257e5;
@@ -116,6 +126,12 @@ a.menu-logo {
 .intro h1 {
     text-transform: uppercase;
     font-size: 3em;
+}
+
+@media(max-width: 920px) {
+    .intro h1 {
+        font-size: 2em;
+    }
 }
 
 .intro h1::after {
@@ -212,6 +228,22 @@ a.menu-logo {
     width: 300px;
     float: left;
     margin: 0 10px 20px 10px;
+}
+
+@media(width: 920px) {
+    .contatos-item{
+        width: 250px;
+    }
+}
+
+@media(max-width: 360px) {
+    .contatos-container{
+        margin: 0 20px 10px 30px;
+    }
+    .sobre-item img{
+        width: 340px;
+        max-width: 500px;
+    }
 }
 
 .contatos-item h2 {
